@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>SNESITE</title>
+  
+  <subtitle>欢迎来到SNES的小站！</subtitle>
+  <link href="https://www.snesite.ga/atom.xml" rel="self"/>
+  
+  <link href="https://www.snesite.ga/"/>
+  <updated>2022-12-30T09:19:38.353Z</updated>
+  <id>https://www.snesite.ga/</id>
+  
+  <author>
+    <name>LAGSNES</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="https://www.snesite.ga/posts/0/"/>
+    <id>https://www.snesite.ga/posts/0/</id>
+    <published>2022-12-30T09:19:38.353Z</published>
+    <updated>2022-12-30T09:19:38.353Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>SNES的小站建成</title>
+    <link href="https://www.snesite.ga/posts/55650/"/>
+    <id>https://www.snesite.ga/posts/55650/</id>
+    <published>2022-12-30T08:15:34.000Z</published>
+    <updated>2022-12-30T08:33:21.370Z</updated>
+    
+    <content type="html"><![CDATA[<p>SNES的小站又双叒叕重建了，其实本来是挺好的。但是由于某位带手子的功劳，成功把我天天推翻重建网站又带来一次毁灭性打击。  </p><p>迫不得已，我停掉了Byethost的主机，转而使用Vercel。<del>其实Byethost本身就很垃圾</del>。这次我使用了Freenom+Vercel+Hexo的建站方式，不使用Typecho或Wordpress之类的开箱即用CMS，<del>因为有总是某些没妈的傻逼喜欢刷垃圾评论</del>，并且Vercel的速度也更快，之前的Byethost要等许久才加载出来页面，还是很不错的。  </p><p>只希望我的网站少被某些人攻击，我也不会再各大平台上宣扬自己的域名了，树大招风。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;SNES的小站又双叒叕重建了，其实本来是挺好的。但是由于某位带手子的功劳，成功把我天天推翻重建网站又带来一次毁灭性打击。  &lt;/p&gt;
+&lt;p&gt;迫不得已，我停掉了Byethost的主机，转而使用Vercel。&lt;del&gt;其实Byethost本身就很垃圾&lt;/del&gt;。这次我使用了F</summary>
+      
+    
+    
+    
+    <category term="建站" scheme="https://www.snesite.ga/categories/%E5%BB%BA%E7%AB%99/"/>
+    
+    
+  </entry>
+  
+</feed>
