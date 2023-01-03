@@ -18,27 +18,23 @@
   <meta name="author" content="LAGSNES">
   <meta name="keywords" content="">
   
-    <meta name="description" content="之前介绍 Hexo+Vercel 建站时，没有详细说明如何把 Hexo 站点和 Github 仓库绑定一起的方法。这次详细说一下。  注意：本文章是 Hexo+Vercel保姆级建站方法 的扩展，建议先阅读建站方法。  第一步-安装Git前往 Git官网 下载并安装 Git 最新版。   第二步-生成私钥安装完毕后，打开Git Bash，并输入以下指令设置用户名和邮箱：   bash12git c">
+    <meta name="description" content="SNES的小站又双叒叕重建了，其实本来是挺好的。但是由于某位带手子的功劳，成功把我天天推翻重建网站又带来一次毁灭性打击。   迫不得已，我停掉了Byethost的主机，转而使用Vercel。其实Byethost本身就很垃圾。这次我使用了Freenom+Vercel+Hexo的建站方式，不使用Typecho或Wordpress之类的开箱即用CMS，因为有总是某些没妈的傻逼喜欢刷垃圾评论，并且Verc">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hexo和Github绑定方法">
-<meta property="og:url" content="https://www.snesite.ga/posts/4/index.html">
+<meta property="og:title" content="SNES的小站建成">
+<meta property="og:url" content="https://www.snesite.ga/posts/55650/index.html">
 <meta property="og:site_name" content="SNESITE">
-<meta property="og:description" content="之前介绍 Hexo+Vercel 建站时，没有详细说明如何把 Hexo 站点和 Github 仓库绑定一起的方法。这次详细说一下。  注意：本文章是 Hexo+Vercel保姆级建站方法 的扩展，建议先阅读建站方法。  第一步-安装Git前往 Git官网 下载并安装 Git 最新版。   第二步-生成私钥安装完毕后，打开Git Bash，并输入以下指令设置用户名和邮箱：   bash12git c">
+<meta property="og:description" content="SNES的小站又双叒叕重建了，其实本来是挺好的。但是由于某位带手子的功劳，成功把我天天推翻重建网站又带来一次毁灭性打击。   迫不得已，我停掉了Byethost的主机，转而使用Vercel。其实Byethost本身就很垃圾。这次我使用了Freenom+Vercel+Hexo的建站方式，不使用Typecho或Wordpress之类的开箱即用CMS，因为有总是某些没妈的傻逼喜欢刷垃圾评论，并且Verc">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://www.snesite.ga/image/20230103git.png">
-<meta property="og:image" content="https://www.snesite.ga/image/20230103githubdash.png">
-<meta property="og:image" content="https://www.snesite.ga/image/20230103githubs.png">
-<meta property="article:published_time" content="2023-01-03T04:46:52.000Z">
-<meta property="article:modified_time" content="2023-01-03T05:21:19.270Z">
+<meta property="article:published_time" content="2022-12-30T08:15:34.000Z">
+<meta property="article:modified_time" content="2023-01-03T05:26:54.925Z">
 <meta property="article:author" content="LAGSNES">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://www.snesite.ga/image/20230103git.png">
   
   
     <meta name="referrer" content="no-referrer-when-downgrade">
   
   
-  <title>Hexo和Github绑定方法 - SNESITE</title>
+  <title>SNES的小站建成 - SNESITE</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -232,7 +228,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="Hexo和Github绑定方法"></span>
+            <span id="subtitle" data-typed-text="SNES的小站建成"></span>
           
         </div>
 
@@ -243,8 +239,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2023-01-03 12:46" pubdate>
-          2023年1月3日 下午
+        <time datetime="2022-12-30 16:15" pubdate>
+          2022年12月30日 下午
         </time>
       </span>
     
@@ -255,7 +251,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          1.1k 字
+          275 字
         
       </span>
     
@@ -266,7 +262,7 @@
         
         
         
-          9 分钟
+          3 分钟
         
       </span>
     
@@ -312,34 +308,42 @@
         <div id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
-            <h1 style="display: none">Hexo和Github绑定方法</h1>
+            <h1 style="display: none">SNES的小站建成</h1>
             
             
               <div class="markdown-body">
                 
-                <p>之前介绍 Hexo+Vercel 建站时，没有详细说明如何把 Hexo 站点和 Github 仓库绑定一起的方法。这次详细说一下。</p>
-<blockquote>
-<p>注意：本文章是 <a href="https://www.snesite.ga/posts/2/">Hexo+Vercel保姆级建站方法</a> 的扩展，建议先阅读建站方法。</p>
-</blockquote>
-<h1 id="第一步-安装Git"><a href="#第一步-安装Git" class="headerlink" title="第一步-安装Git"></a>第一步-安装Git</h1><p>前往 <a target="_blank" rel="noopener" href="https://git-scm.com/download">Git官网</a> 下载并安装 Git 最新版。<br><img src="/image/20230103git.png" srcset="/img/loading.gif" lazyload alt="image" title="Git官网">  </p>
-<h1 id="第二步-生成私钥"><a href="#第二步-生成私钥" class="headerlink" title="第二步-生成私钥"></a>第二步-生成私钥</h1><p>安装完毕后，打开<code>Git Bash</code>，并输入以下指令设置用户名和邮箱：  </p>
-<figure class="highlight plaintext"><figcaption><span>bash</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs git">git config --global user.name &#123;github-username&#125;<br>git config --global user.email &#123;github-useremail&#125;<br></code></pre></td></tr></table></figure>
-<p>设置完成后，输入以下指令来生成密钥：</p>
-<figure class="highlight plaintext"><figcaption><span>bash</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs git">ssh-keygen -t rsa -C &#123;github-useremail&#125;<br></code></pre></td></tr></table></figure>
-<p>中途可能会让你设置密码，可以跳过也可以设置。执行后，会在 <code>%userprofile%\.ssh</code> 下生成两个配置文件，分别是 <code>id_rsa</code> 和 <code>id_rsa.pub</code> ，用编辑器打开 <code>id_rsa.pub</code> 并复制里面的全部内容。</p>
-<h1 id="第三步-设置Github"><a href="#第三步-设置Github" class="headerlink" title="第三步-设置Github"></a>第三步-设置Github</h1><p>打开 &lt;github.com&gt; ，打开设置<br><img src="/image/20230103githubdash.png" srcset="/img/loading.gif" lazyload alt="image" title="Github Dashboard"><br>进入设置，点击 <em>SSH and GPG keys</em> ，选择到 <em>SSH keys</em> ，单击 <em>New SSH key</em>，如下图所示：<br><img src="/image/20230103githubs.png" srcset="/img/loading.gif" lazyload alt="image" title="Github设置"><br>然后把刚刚复制的<code>id_rsa.pub</code>即可。</p>
-<h1 id="第四步-设置Hexo"><a href="#第四步-设置Hexo" class="headerlink" title="第四步-设置Hexo"></a>第四步-设置Hexo</h1><p>打开Hexo站点根目录，打开<code>_config.yml</code>，滑到最底下找到以下内容：</p>
-<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs yaml"><span class="hljs-comment"># Deployment</span><br><span class="hljs-comment">## Docs: https://hexo.io/docs/one-command-deployment</span><br><span class="hljs-attr">deploy:</span><br>  <span class="hljs-attr">type:</span> <span class="hljs-string">&#x27;git&#x27;</span> <span class="hljs-comment">#输入git</span><br>  <span class="hljs-attr">repo:</span> <span class="hljs-string">&#x27;git@github.com:LAGQWQ/lagqwq.github.io.git&#x27;</span> <span class="hljs-comment">#仓库链接</span><br>  <span class="hljs-attr">branch:</span> <span class="hljs-string">main</span> <span class="hljs-comment">#分支</span><br></code></pre></td></tr></table></figure>
-<p>将以上配置文件进行修改后保存，随后输入<code>Hexo g -d</code>即可上传。</p>
-<div class="note note-warning">
-            <p>如果 <code>Hexo</code> 报错 <code>error：spawn failed...</code> 或者 <code>fatal: cannot lock ref &#39;HEAD&#39;: unable to resolve reference HEAD: Invalid argument error: src refspec</code> 或者 <code>error: src refspec HEAD does not match any.</code>，请阅读以下内容解决问题。</p><ul><li>删除 <code>.Deply_git</code></li><li>执行 <code>git config --global core.autocrlf false</code></li><li>执行 <code>hexo clean &amp;&amp; hexo g -d</code></li></ul>
-          </div>
+                <p>SNES的小站又双叒叕重建了，其实本来是挺好的。但是由于某位带手子的功劳，成功把我天天推翻重建网站又带来一次毁灭性打击。  </p>
+<p>迫不得已，我停掉了Byethost的主机，转而使用Vercel。<del>其实Byethost本身就很垃圾</del>。这次我使用了Freenom+Vercel+Hexo的建站方式，不使用Typecho或Wordpress之类的开箱即用CMS，<del>因为有总是某些没妈的傻逼喜欢刷垃圾评论</del>，并且Vercel的速度也更快，之前的Byethost要等许久才加载出来页面，还是很不错的。  </p>
+<p>只希望我的网站少被某些人攻击，我也不会再各大平台上宣扬自己的域名了，树大招风。</p>
+
                 
               </div>
             
             <hr/>
             <div>
               <div class="post-metas my-3">
+  
+    <div class="post-meta mr-3 d-flex align-items-center">
+      <i class="iconfont icon-category"></i>
+      
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/%E5%BB%BA%E7%AB%99/" class="category-chain-item">建站</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
+    </div>
   
   
 </div>
@@ -350,8 +354,8 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>Hexo和Github绑定方法</div>
-      <div>https://www.snesite.ga/posts/4/</div>
+      <div>SNES的小站建成</div>
+      <div>https://www.snesite.ga/posts/55650/</div>
     </div>
     <div class="license-meta">
       
@@ -363,7 +367,7 @@
       
         <div class="license-meta-item license-meta-date">
           <div>发布于</div>
-          <div>2023年1月3日</div>
+          <div>2022年12月30日</div>
         </div>
       
       
@@ -395,15 +399,15 @@
                   <article class="post-prev col-6">
                     
                     
+                      <a href="/posts/41973/" title="Hexo+Vercel保姆级建站方法">
+                        <i class="iconfont icon-arrowleft"></i>
+                        <span class="hidden-mobile">Hexo+Vercel保姆级建站方法</span>
+                        <span class="visible-mobile">上一篇</span>
+                      </a>
+                    
                   </article>
                   <article class="post-next col-6">
                     
-                    
-                      <a href="/posts/3/" title="Freenom顶级域名白嫖方法">
-                        <span class="hidden-mobile">Freenom顶级域名白嫖方法</span>
-                        <span class="visible-mobile">下一篇</span>
-                        <i class="iconfont icon-arrowright"></i>
-                      </a>
                     
                   </article>
                 </div>
