@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>SNESITE</title>
   
-  <subtitle>欢迎来到SNES的小站！</subtitle>
+  <subtitle>欢迎来到SNESITE！</subtitle>
   <link href="https://www.snesite.ga/atom.xml" rel="self"/>
   
   <link href="https://www.snesite.ga/"/>
